@@ -175,7 +175,7 @@ header {
 }
 
 .schedule {
-  padding: 90px 50px;
+  padding: 90px 70px;
 }
 .schedule__content {
   margin-top: 60px;
@@ -189,12 +189,12 @@ header {
   line-height: 6.4rem;
 }
 .schedule__title-center {
-  margin-left: 110px;
+  margin-left: 12%;
   font-size: 4rem;
   line-height: 4.2rem;
 }
 .schedule__title-bottom {
-  margin-left: 350px;
+  margin-left: 28%;
   font-size: 4rem;
   line-height: 4.2rem;
 }
@@ -264,7 +264,7 @@ details[open] .schedule__marker {
 }
 .schedule__block-salary-directorate {
   display: flex;
-  height: 1200px;
+  height: 100%;
   width: 30%;
   padding-top: 60px;
   background-color: #838383;
@@ -620,51 +620,57 @@ details[open] {
     margin-top: 40px;
   }
   .schedule__marker {
-    width: 26px;
-    height: 26px;
+    width: 23px;
+    height: 23px;
     right: 30px;
   }
   details[open] .schedule__marker {
-    height: 3px;
+    height: 2px;
   }
   .schedule__title-top {
     font-size: 5rem;
     line-height: 5.4rem;
   }
   .schedule__title-center {
-    margin-left: 100px;
+    /* margin-left: 100px; */
     font-size: 3rem;
     line-height: 3.2rem;
   }
   .schedule__title-bottom {
-    margin-left: 240px;
+    /* margin-left: 240px; */
     font-size: 3rem;
     line-height: 3.2rem;
   }
   .schedule__text {
     margin-top: 40px;
+    font-size: 1.2rem;
   }
   .schedule__block-workman-and-aristocrat {
-    margin-top: 15%;
+    margin-top: 10%;
   }
   .schedule__block-salary-workman {
     height: 40px;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   .schedule__block-salary-aristocrat {
     height: 80px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .schedule__block-salary-directorate {
     height: 900px;
     padding-top: 40px;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .schedule__block-text-middle {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   .schedule__block-text-small {
     font-size: 1rem;
+  }
+  .schedule__block-item-workman,
+  .schedule__block-item-aristocrat,
+  .schedule__block-item-directorate {
+    font-size: 1.2rem;
   }
   .schedule__block-item {
     padding: 20px 15px;
@@ -709,9 +715,36 @@ details[open] {
     height: 110px;
     margin: 0 80px 50px 0;
   }
+
+  .life {
+    padding: 70px 0 55px;
+  }
+  .life__text {
+    font-size: 1.1rem;
+  }
+
+  footer {
+    padding: 70px 0 20px;
+  }
+
+  .form {
+    padding: 70px 0;
+  }
+  .form__title h1{
+    font-size: 1.5rem;
+    line-height: 4rem;
+  }
+  .form .inp {
+    height: 54px;
+    margin-bottom: 25px;
+    padding: 15px 20px;
+  }
+  .form .btn {
+    padding: 15px 30px;
+  }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 800px) {
 }
 @media screen and (max-width: 480px) {
 }
