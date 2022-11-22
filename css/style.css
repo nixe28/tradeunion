@@ -611,6 +611,16 @@ details[open] {
   .scheme__title-text {
     font-size: 2.9rem;
   }
+  .scheme__chapters {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+  .scheme__chapter {
+    margin-left: 35px;
+  }
+  .scheme__columns {
+    height: 560px;
+  }
 
   .life__text {
     font-size: 1.2rem;
@@ -630,9 +640,10 @@ details[open] {
   }
 
   header {
-    height: 650px;
+    height: 600px;
   }
   .header__title {
+    margin-top: 4%;
     font-size: 5rem;
   }
 
@@ -746,6 +757,17 @@ details[open] {
   .scheme__title-text {
     font-size: 2.8rem;
   }
+  .scheme__chapters {
+    width: 85%;
+    margin-left: 6%;
+  }
+  .scheme__chapter {
+    margin-left: 30px;
+  }
+  .scheme__columns {
+    height: 510px;
+  }
+
   .life {
     padding: 70px 0 55px;
   }
@@ -775,6 +797,79 @@ details[open] {
 }
 
 @media screen and (max-width: 880px) {
+  body,
+  .btn {
+    font-size: 1rem;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+    line-height: 1.1;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  header {
+    height: 500px;
+  }
+  .header__title {
+    margin-top: 4%;
+    font-size: 4rem;
+  }
+
+  .workers {
+    padding: 60px 40px;
+    font-size: 1rem;
+  }
+  .workers__block-item-left,
+  .workers__block-item-right {
+    padding: 40px 20px 20px;
+  }
+  .workers__person-img {
+    width: 92px;
+    height: auto;
+    margin: 0 20px 10px;
+  }
+  .workers__person .workers__text {
+    font-size: 0.8rem;
+  }
+
+  .schedule {
+    padding: 70px 50px;
+  }
+  .schedule__title-top {
+    font-size: 4.5rem;
+    line-height: 4.9rem;
+  }
+  .schedule__title-center,
+  .schedule__title-bottom {
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+  }
+
+  .scheme {
+    padding: 60px 0 30px;
+  }
+  .scheme__title {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    height: 90px;
+    margin: 0 50px 35px 0;
+  }
+  .scheme__title-text {
+    font-size: 2.4rem;
+  }
+  .scheme__chapters {
+    width: 85%;
+    margin-left: 8%;
+  }
+  .scheme__chapter {
+    margin-left: 25px;
+  }
+  .scheme__columns {
+    height: 410px;
+  }
 }
 @media screen and (max-width: 480px) {
 }
