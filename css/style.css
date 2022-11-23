@@ -95,7 +95,7 @@ header {
 }
 .header__title {
   height: 27%;
-  margin-top: 4%;
+  margin-top: 40px;
   line-height: 1.1;
   font-size: 8rem;
 }
@@ -120,7 +120,7 @@ header {
 }
 .workers__block-item-left {
   width: 49%;
-  padding: 80px 5% 50px;
+  padding: 80px 40px 50px;
   background-color: #D9D9D9;
 }
 .workers__block-item-center {
@@ -128,7 +128,7 @@ header {
 }
 .workers__block-item-right {
   width: 49%;
-  padding: 80px 5% 50px;
+  padding: 80px 40px 50px;
   background-color: #DC0721;
 }
 .workers__header {
@@ -159,9 +159,9 @@ header {
   align-items: center;
 }
 .workers__person-img {
-  width: 153px;
+  width: 30%;
   height: auto;
-  margin: 0 10px 20px;
+  margin: 0 auto 20px;
 }
 .workers__person-img img {
   border-radius: 50%;
@@ -575,9 +575,10 @@ details[open] {
   }
 
   header {
-    height: 700px;
+    height: 650px;
   }
   .header__title {
+    margin-top: 20px;
     font-size: 6rem;
   }
 
@@ -587,12 +588,7 @@ details[open] {
   }
   .workers__block-item-left,
   .workers__block-item-right {
-    padding: 60px 5% 40px;
-  }
-  .workers__person-img {
-    width: 123px;
-    height: auto;
-    margin: 0 30px 20px;
+    padding: 60px 35px 40px;
   }
 
   .schedule {
@@ -657,7 +653,7 @@ details[open] {
     height: 600px;
   }
   .header__title {
-    margin-top: 4%;
+    margin-top: 10px;
     font-size: 5rem;
   }
 
@@ -667,10 +663,7 @@ details[open] {
   }
   .workers__block-item-left,
   .workers__block-item-right {
-    padding: 45px 4% 35px;
-  }
-  .workers__person-img {
-    margin: 0 20px 10px;
+    padding: 45px 30px 35px;
   }
   .workers__person .workers__text {
     font-size: 0.9rem;
@@ -831,10 +824,11 @@ details[open] {
   }
 
   header {
-    height: 500px;
+    height: 450px;
+    padding: 6%;
   }
   .header__title {
-    margin-top: 4%;
+    margin-top: 0;
     font-size: 4rem;
   }
 
@@ -891,6 +885,10 @@ details[open] {
   .scheme__columns {
     height: 410px;
   }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 600px) {
 }
 @media screen and (max-width: 480px) {
 }
