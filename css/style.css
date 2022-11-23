@@ -72,7 +72,6 @@ body {
 
 h1 {
   margin-bottom: 70px;
-  letter-spacing: 0.035em;
   color: #000;
   font-size: 4rem;
   font-weight: 400;
@@ -410,6 +409,7 @@ details[open] .schedule__marker {
 }
 .scheme__chapter {
   margin-left: 45px;
+  line-height: 2;
 }
 .scheme__chapter:first-child {
   margin-left: 0;
@@ -781,6 +781,10 @@ details[open] {
   .scheme__columns {
     height: 510px;
   }
+  .scheme__column-image {
+    width: 50px;
+    margin-top: 25px;
+  }
 
   .life {
     padding: 70px 0 55px;
@@ -817,14 +821,14 @@ details[open] {
   }
 
   h1 {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     line-height: 1.1;
     font-size: 2rem;
     font-weight: 300;
   }
 
   header {
-    height: 450px;
+    height: 430px;
     padding: 6%;
   }
   .header__title {
@@ -833,12 +837,22 @@ details[open] {
   }
 
   .workers {
-    padding: 60px 40px;
+    padding: 50px 30px;
     font-size: 1rem;
+  }
+  .workers__content {
+    margin-top: 40px;
   }
   .workers__block-item-left,
   .workers__block-item-right {
     padding: 40px 20px 20px;
+  }
+  .workers__salary {
+    padding-top: 10px;
+  }
+  .workers__salary-vasya {
+    padding-top: 20px;
+    padding-left: 5%;
   }
   .workers__person-img {
     width: 92px;
@@ -861,18 +875,26 @@ details[open] {
     font-size: 2.5rem;
     line-height: 2.7rem;
   }
+  .schedule__text {
+    margin-top: 30px;
+    font-size: 1.1rem;
+  }
+  .schedule__block-workman-and-aristocrat {
+    margin-top: 5%;
+  }
 
   .scheme {
     padding: 60px 0 30px;
   }
   .scheme__title {
-    display: flex;
-    justify-content: space-between;
-    float: right;
-    height: 90px;
-    margin: 0 50px 35px 0;
+    height: 80px;
+    margin: 0 40px 40px 0;
+  }
+  .scheme__title img {
+    padding-left: 20px;
   }
   .scheme__title-text {
+    margin: auto 0 0 10px;
     font-size: 2.4rem;
   }
   .scheme__chapters {
@@ -880,10 +902,24 @@ details[open] {
     margin-left: 8%;
   }
   .scheme__chapter {
-    margin-left: 25px;
+    margin-left: 20px;
   }
   .scheme__columns {
     height: 410px;
+  }
+  .scheme__column-image {
+    width: 37px;
+    margin-top: 20px;
+  }
+
+  .life {
+    padding: 60px 0 55px;
+  }
+  .life__content {
+    margin-top: 50px;
+  }
+  .life__text {
+    font-size: 1rem;
   }
 }
 @media screen and (max-width: 768px) {
