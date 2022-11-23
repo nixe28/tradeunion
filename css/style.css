@@ -120,7 +120,7 @@ header {
 }
 .workers__block-item-left {
   width: 49%;
-  padding: 80px 30px 50px;
+  padding: 80px 5% 50px;
   background-color: #D9D9D9;
 }
 .workers__block-item-center {
@@ -128,7 +128,7 @@ header {
 }
 .workers__block-item-right {
   width: 49%;
-  padding: 80px 30px 50px;
+  padding: 80px 5% 50px;
   background-color: #DC0721;
 }
 .workers__header {
@@ -587,12 +587,26 @@ details[open] {
   }
   .workers__block-item-left,
   .workers__block-item-right {
-    padding: 60px 35px 40px;
+    padding: 60px 5% 40px;
   }
   .workers__person-img {
     width: 123px;
     height: auto;
     margin: 0 30px 20px;
+  }
+
+  .schedule {
+    padding: 50px 50px;
+  }
+  .schedule__block-salary-directorate {
+    height: 1000px;
+  }
+  .schedule__text {
+    width: 90%;
+    margin-top: 45px;
+  }
+  .schedule__block-workman-and-aristocrat {
+    margin-top: 20%;
   }
 
   .capabilities__block-job-name{
@@ -651,6 +665,10 @@ details[open] {
     padding: 60px 40px;
     font-size: 1rem;
   }
+  .workers__block-item-left,
+  .workers__block-item-right {
+    padding: 45px 4% 35px;
+  }
   .workers__person-img {
     margin: 0 20px 10px;
   }
@@ -658,6 +676,9 @@ details[open] {
     font-size: 0.9rem;
   }
 
+  .schedule {
+    padding: 35px 50px;
+  }
   .schedule__content {
     margin-top: 40px;
   }
@@ -682,8 +703,8 @@ details[open] {
     line-height: 3.2rem;
   }
   .schedule__text {
-    margin-top: 40px;
-    font-size: 1.2rem;
+    margin-top: 35px;
+    font-size: 1.15rem;
   }
   .schedule__block-workman-and-aristocrat {
     margin-top: 10%;
@@ -697,7 +718,7 @@ details[open] {
     font-size: 1.2rem;
   }
   .schedule__block-salary-directorate {
-    height: 900px;
+    height: 800px;
     padding-top: 40px;
     font-size: 1.8rem;
   }
@@ -835,7 +856,7 @@ details[open] {
   }
 
   .schedule {
-    padding: 70px 50px;
+    padding: 25px 50px;
   }
   .schedule__title-top {
     font-size: 4.5rem;
