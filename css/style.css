@@ -1211,6 +1211,10 @@ details[open] {
   .form__order {
     padding: 0 13%;
   }
+
+  footer {
+    padding: 60px 0 20px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1546,6 +1550,10 @@ details[open] {
     height: 35px;
     font-size: 0.8rem;
   }
+
+  footer {
+    padding: 50px 0 20px;
+  }
 }
 
 @media screen and (max-width: 460px) {
@@ -1706,6 +1714,10 @@ details[open] {
     height: 32px;
     font-size: 0.7rem;
   }
+
+  footer {
+    padding: 40px 0 20px;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -1763,7 +1775,193 @@ details[open] {
     font-size: 0.45rem;
   }
   .schedule__blocks-salary {
-    height: 320px;
+    height: 280px;
+  }
+  .schedule__block-salary-directorate {
+    font-size: 0.9rem;
+  }
+  .schedule__block-text-middle {
+    font-size: 0.8rem;
+  }
+  .schedule__block-text-small {
+    font-size: 0.5rem;
+  }
+  .schedule__block-salary-workman {
+    height: 15px;
+    font-size: 0.4rem;
+  }
+  .schedule__block-salary-aristocrat {
+    height: 30px;
+    font-size: 0.6rem;
+  }
+  .schedule__block-item-workman,
+  .schedule__block-item-aristocrat,
+  .schedule__block-item-directorate {
+    font-size: 0.5rem;
+  }
+  .schedule__block-workman-title,
+  .schedule__block-aristocrat-title,
+  .schedule__block-directorate-title {
+    height: 35px;
+    padding: 10px;
+  }
+  .schedule__block-item {
+    padding: 7px;
+    font-size: 0.5rem;
+  }
+  .schedule__block-item p {
+    height: 18px;
+  }
+  .schedule__marker {
+    width: 12px;
+    height: 12px;
+    right: 10px;
+  }
+  details[open] .schedule__marker {
+    height: 1px;
+  }
+  .schedule__block-item label {
+    height: 11px;
+    width: 11px;
+    border: 1.5px solid #000000;
+  }
+  .schedule__block-item input[type=radio]:checked+label {
+    height: 8px;
+    width: 8px;
+  }
+  details[open] {
+    margin-bottom: 0;
+  }
+
+  .capabilities__block-item-left,
+  .capabilities__block-item-right {
+    padding: 8px;
+  }
+  .capabilities__block-item-header {
+    padding-top: 5px;
+    line-height: 1.3rem;
+  }
+  .capabilities h1 {
+    line-height: 1.2rem;
+  }
+  .capabilities__block-job-name {
+    height: 30px;
+  }
+  .capabilities__block-job-name img {
+    height: 8px;
+  }
+  .capabilities__list-worker {
+    margin-top: 20px;
+  }
+  .capabilities__list-director {
+    margin-top: 15px;
+  }
+
+  .scheme__title {
+    height: 40px;
+  }
+  .scheme__title-text {
+    font-size: 1.4rem;
+  }
+  .scheme__chapters {
+    margin-left: 5%;
+  }
+  .scheme__chapter {
+    margin-left: 10px;
+  }
+  .scheme__columns {
+    height: 230px;
+  }
+  .scheme__gray-cell-inside-five {
+    height: 72px;
+  }
+  .scheme__gray-cell-inside-three {
+    height: 56px;
+  }
+  .scheme__column-image {
+    width: 16px;
+    margin-top: 10px;
+  }
+
+  .life {
+    padding: 30px 0 35px;
+  }
+  .life__content {
+    margin-top: 0;
+  }
+  .life__text {
+    font-size: 0.4rem;
+  }
+  .life__img-hand {
+    width: 80px;
+  }
+
+  .form__title h1 {
+    font-size: 1rem;
+    line-height: 2.3rem;
+  }
+  .form .inp {
+    height: 25px;
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  body {
+    font-size: 0.5rem;
+  }
+
+  .btn {
+    padding: 8px 30px;
+    font-size: 0.7rem;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+  }
+
+  header {
+    height: 230px;
+  }
+  .header__title {
+    font-size: 2rem;
+  }
+
+  .workers {
+    font-size: 0.4rem;
+  }
+  .workers__content {
+    margin-top: 10px;
+  }
+  .workers__block-item-left,
+  .workers__block-item-right {
+    padding: 10px 5px 5px;
+  }
+  .workers__person-img {
+    width: 45px;
+  }
+  .workers__person .workers__text {
+    font-size: 0.4rem;
+  }
+  .workers__experience {
+    padding-top: 10px;
+  }
+
+  .schedule__title-top {
+    font-size: 2rem;
+    line-height: 1.8rem;
+  }
+  .schedule__title-center,
+  .schedule__title-bottom {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .schedule__text p {
+    font-size: 0.45rem;
+  }
+  .schedule__blocks-salary {
+    height: 280px;
   }
   .schedule__block-salary-directorate {
     font-size: 1rem;
