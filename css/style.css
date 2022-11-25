@@ -624,9 +624,6 @@ details[open] {
     width: 90%;
     margin-top: 45px;
   }
-  .schedule__block-workman-and-aristocrat {
-    margin-top: 20%;
-  }
   details[open] {
     margin-bottom: 75px;
   }
@@ -735,9 +732,6 @@ details[open] {
   .schedule__text p {
     margin-top: 35px;
     font-size: 1.15rem;
-  }
-  .schedule__block-workman-and-aristocrat {
-    margin-top: 10%;
   }
   .schedule__block-salary-workman {
     height: 40px;
@@ -946,9 +940,6 @@ details[open] {
   }
   .schedule__blocks-salary {
     margin-bottom: 6px;
-  }
-  .schedule__block-workman-and-aristocrat {
-    margin-top: 5%;
   }
   .schedule__block-item-workman,
   .schedule__block-item-aristocrat,
