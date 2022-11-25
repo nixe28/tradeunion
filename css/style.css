@@ -885,6 +885,9 @@ details[open] {
   .workers__person .workers__text {
     font-size: 0.8rem;
   }
+  .workers__experience {
+    padding-top: 25px;
+  }
 
   .schedule {
     padding: 25px 50px;
@@ -1001,6 +1004,7 @@ details[open] {
 
   .btn {
     padding: 15px 40px;
+    font-size: 0.8rem;
   }
 
   header {
@@ -1145,6 +1149,9 @@ details[open] {
     margin-top: 20px;
   }
 
+  .life {
+    padding: 55px 0 50px;
+  }
   .life__content {
     margin: 50px 8% 0;
   }
@@ -1173,6 +1180,7 @@ details[open] {
 
   .btn {
     padding: 15px 40px;
+    font-size: 0.9rem;
   }
 
   header {
@@ -1203,6 +1211,9 @@ details[open] {
     display: flex;
     align-items: center;
     padding-top: 0;
+  }
+  .workers__experience {
+    padding-top: 20px;
   }
 
   .schedule {
@@ -1236,7 +1247,7 @@ details[open] {
     font-size: 1.1rem;
   }
   .schedule__block-text-small {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 .schedule__block-salary-workman {
     height: 20px;
@@ -1263,7 +1274,7 @@ details[open] {
     right: 20px;
   }
   .schedule__block-item {
-    padding: 10px 10px;
+    padding: 10px;
     font-size: 0.7rem;
   }
   .schedule__block-item p {
@@ -1330,6 +1341,10 @@ details[open] {
     margin-top: 17px;
   }
 
+  .life {
+    padding: 50px 0 45px;
+  }
+
   .form__title h1 {
     font-size: 1.3rem;
     line-height: 3rem;
@@ -1339,6 +1354,470 @@ details[open] {
   }
 }
 
-@media screen and (max-width: 550px) {}
+@media screen and (max-width: 550px) {
+  body {
+    font-size: 0.7rem;
+  }
 
-@media screen and (max-width: 360px) {}
+  .btn {
+    padding: 10px 35px;
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  header {
+    height: 320px;
+  }
+  .header__title {
+    font-size: 3rem;
+  }
+
+  .workers {
+    padding: 30px 25px;
+    font-size: 0.6rem;
+  }
+  .workers__person-img {
+    width: 65px;
+  }
+  .workers__person .workers__text {
+    font-size: 0.55rem;
+  }
+
+  .schedule__title-top {
+    font-size: 2.7rem;
+    line-height: 3.2rem;
+  }
+  .schedule__title-center,
+  .schedule__title-bottom {
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+  .schedule__text p {
+    font-size: 0.65rem;
+  }
+  .schedule__blocks-salary {
+    height: 420px;
+  }
+  .schedule__block-salary-directorate {
+    font-size: 1.2rem;
+  }
+  .schedule__block-text-middle {
+    font-size: 1.1rem;
+  }
+  .schedule__block-text-small {
+    font-size: 0.65rem;
+  }
+  .schedule__block-salary-workman {
+    font-size: 0.6rem;
+  }
+  .schedule__block-salary-aristocrat {
+    font-size: 0.8rem;
+  }
+  .schedule__block-item-workman,
+  .schedule__block-item-aristocrat,
+  .schedule__block-item-directorate {
+    font-size: 0.7rem;
+  }
+  .schedule__block-item {
+    font-size: 0.7rem;
+  }
+  .schedule__block-item p {
+    height: 22px;
+  }
+  details[open] {
+    margin-bottom: 10px;
+  }
+
+  .capabilities__block-item-left,
+  .capabilities__block-item-right {
+    padding: 10px;
+  }
+  .capabilities__block-item-header {
+    padding-top: 5px;
+    line-height: 2rem;
+  }
+  .capabilities h1 {
+    line-height: 1.8rem;
+  }
+  .capabilities__block-job-name {
+    height: 35px;
+  }
+  .capabilities__block-job-name img {
+    height: 10px;
+  }
+  .capabilities__list-worker {
+    margin-top: 35px;
+  }
+  .capabilities__list-director {
+    margin-top: 25px;
+  }
+
+  .scheme__title {
+    height: 50px;
+  }
+  .scheme__title-text {
+    font-size: 1.7rem;
+  }
+  .scheme__chapters {
+    margin-left: 6%;
+  }
+  .scheme__chapter {
+    margin-left: 10px;
+  }
+  .scheme__columns {
+    height: 290px;
+  }
+  .scheme__column-image {
+    width: 21px;
+    margin-top: 15px;
+  }
+
+  .life {
+    padding: 45px 0 40px;
+  }
+  .life__content {
+    margin-top: 40px;
+  }
+  .life__text {
+    font-size: 0.7rem;
+  }
+
+  .form__title h1 {
+    font-size: 1.2rem;
+    line-height: 2.9rem;
+  }
+  .form .inp {
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  body {
+    font-size: 0.6rem;
+  }
+
+  .btn {
+    padding: 10px 35px;
+    font-size: 0.7rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  header {
+    height: 260px;
+  }
+  .header__title {
+    font-size: 2.3rem;
+  }
+
+  .workers {
+    font-size: 0.5rem;
+  }
+  .workers__content {
+    margin-top: 20px;
+  }
+  .workers__block-item-left,
+  .workers__block-item-right {
+    padding: 20px 10px 10px;
+  }
+  .workers__person-img {
+    width: 60px;
+  }
+  .workers__person .workers__text {
+    font-size: 0.5rem;
+  }
+  .workers__experience {
+    padding-top: 15px;
+  }
+
+  .schedule__title-top {
+    font-size: 2.5rem;
+    line-height: 2.3rem;
+  }
+  .schedule__title-center,
+  .schedule__title-bottom {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+  .schedule__text p {
+    font-size: 0.55rem;
+  }
+  .schedule__blocks-salary {
+    height: 360px;
+  }
+  .schedule__block-salary-directorate {
+    font-size: 1.1rem;
+  }
+  .schedule__block-text-middle {
+    font-size: 1rem;
+  }
+  .schedule__block-text-small {
+    font-size: 0.6rem;
+  }
+  .schedule__block-salary-workman {
+    font-size: 0.5rem;
+  }
+  .schedule__block-salary-aristocrat {
+    font-size: 0.7rem;
+  }
+  .schedule__block-item-workman,
+  .schedule__block-item-aristocrat,
+  .schedule__block-item-directorate {
+    font-size: 0.6rem;
+  }
+  .schedule__block-item {
+    font-size: 0.6rem;
+  }
+  .schedule__block-item p {
+    height: 20px;
+  }
+
+  .capabilities__block-item-left,
+  .capabilities__block-item-right {
+    padding: 8px;
+  }
+  .capabilities__block-item-header {
+    padding-top: 5px;
+    line-height: 1.8rem;
+  }
+  .capabilities h1 {
+    line-height: 1.6rem;
+  }
+  .capabilities__block-job-name {
+    height: 32px;
+  }
+  .capabilities__block-job-name img {
+    height: 9px;
+  }
+  .capabilities__list-worker {
+    margin-top: 30px;
+  }
+  .capabilities__list-director {
+    margin-top: 20px;
+  }
+
+  .scheme__title {
+    height: 45px;
+  }
+  .scheme__title-text {
+    font-size: 1.6rem;
+  }
+  .scheme__chapters {
+    margin-left: 5%;
+  }
+  .scheme__chapter {
+    margin-left: 10px;
+  }
+  .scheme__columns {
+    height: 220px;
+  }
+  .scheme__column-image {
+    width: 18px;
+    margin-top: 12px;
+  }
+
+  .life {
+    padding: 45px 0 35px;
+  }
+  .life__content {
+    margin-top: 30px;
+  }
+  .life__text {
+    font-size: 0.6rem;
+  }
+
+  .form {
+    padding: 0;
+  }
+  .form__title h1 {
+    font-size: 1.1rem;
+    line-height: 2.7rem;
+  }
+  .form .inp {
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  body {
+    font-size: 0.5rem;
+  }
+
+  .btn {
+    padding: 8px 30px;
+    font-size: 0.7rem;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+  }
+
+  header {
+    height: 230px;
+  }
+  .header__title {
+    font-size: 2rem;
+  }
+
+  .workers {
+    font-size: 0.4rem;
+  }
+  .workers__content {
+    margin-top: 10px;
+  }
+  .workers__block-item-left,
+  .workers__block-item-right {
+    padding: 10px 5px 5px;
+  }
+  .workers__person-img {
+    width: 45px;
+  }
+  .workers__person .workers__text {
+    font-size: 0.4rem;
+  }
+  .workers__experience {
+    padding-top: 10px;
+  }
+
+  .schedule__title-top {
+    font-size: 2rem;
+    line-height: 1.8rem;
+  }
+  .schedule__title-center,
+  .schedule__title-bottom {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .schedule__text p {
+    font-size: 0.45rem;
+  }
+  .schedule__blocks-salary {
+    height: 320px;
+  }
+  .schedule__block-salary-directorate {
+    font-size: 1rem;
+  }
+  .schedule__block-text-middle {
+    font-size: 0.9rem;
+  }
+  .schedule__block-text-small {
+    font-size: 0.5rem;
+  }
+  .schedule__block-salary-workman {
+    height: 15px;
+    font-size: 0.4rem;
+  }
+  .schedule__block-salary-aristocrat {
+    height: 30px;
+    font-size: 0.6rem;
+  }
+  .schedule__block-item-workman,
+  .schedule__block-item-aristocrat,
+  .schedule__block-item-directorate {
+    font-size: 0.5rem;
+  }
+  .schedule__block-workman-title,
+  .schedule__block-aristocrat-title,
+  .schedule__block-directorate-title {
+    height: 35px;
+    padding: 10px;
+  }
+  .schedule__block-item {
+    padding: 7px;
+    font-size: 0.5rem;
+  }
+  .schedule__block-item p {
+    height: 18px;
+  }
+  .schedule__marker {
+    width: 12px;
+    height: 12px;
+    right: 10px;
+  }
+  details[open] .schedule__marker {
+    height: 1px;
+  }
+  .schedule__block-item label {
+    height: 11px;
+    width: 11px;
+    border: 1.5px solid #000000;
+  }
+  .schedule__block-item input[type=radio]:checked+label {
+    height: 8px;
+    width: 8px;
+  }
+  details[open] {
+    margin-bottom: 0;
+  }
+
+  .capabilities__block-item-left,
+  .capabilities__block-item-right {
+    padding: 8px;
+  }
+  .capabilities__block-item-header {
+    padding-top: 5px;
+    line-height: 1.3rem;
+  }
+  .capabilities h1 {
+    line-height: 1.2rem;
+  }
+  .capabilities__block-job-name {
+    height: 30px;
+  }
+  .capabilities__block-job-name img {
+    height: 8px;
+  }
+  .capabilities__list-worker {
+    margin-top: 20px;
+  }
+  .capabilities__list-director {
+    margin-top: 15px;
+  }
+
+  .scheme__title {
+    height: 40px;
+  }
+  .scheme__title-text {
+    font-size: 1.4rem;
+  }
+  .scheme__chapters {
+    margin-left: 5%;
+  }
+  .scheme__chapter {
+    margin-left: 10px;
+  }
+  .scheme__columns {
+    height: 200px;
+  }
+  .scheme__column-image {
+    width: 16px;
+    margin-top: 10px;
+  }
+
+  .life {
+    padding: 30px 0 35px;
+  }
+  .life__content {
+    margin-top: 0;
+  }
+  .life__text {
+    font-size: 0.4rem;
+  }
+  .life__img-hand {
+    width: 80px;
+  }
+
+  .form__title h1 {
+    font-size: 1rem;
+    line-height: 2.3rem;
+  }
+  .form .inp {
+    height: 30px;
+  }
+}
