@@ -207,19 +207,19 @@ header {
 
 .schedule__title-top {
     font-size: 6rem;
-    line-height: 6.4rem;
+    line-height: 1.1;
 }
 
 .schedule__title-center {
     margin-left: 12%;
     font-size: 4rem;
-    line-height: 4.2rem;
+    line-height: 1.1;
 }
 
 .schedule__title-bottom {
     margin-left: 28%;
     font-size: 4rem;
-    line-height: 4.2rem;
+    line-height: 1.1;
 }
 
 .schedule__link:link {
@@ -284,7 +284,7 @@ details[open] .schedule__marker {
     align-items: center;
     background-color: #DC0721;
     font-size: 1.5rem;
-    line-height: 3rem;
+    line-height: 2;
     color: #FFFFFF;
 }
 
@@ -294,7 +294,7 @@ details[open] .schedule__marker {
     align-items: center;
     background-color: #838383;
     font-size: 1.8rem;
-    line-height: 6rem;
+    line-height: 3;
     color: #FFFFFF;
 }
 
@@ -402,7 +402,7 @@ details[open] {
 
 .capabilities__block-items-header {
     display: flex;
-    line-height: 4.2rem;
+    line-height: 2;
 }
 
 .capabilities__block-items {
@@ -439,7 +439,7 @@ details[open] {
     padding: 0 5%;
     background-color: #EAE9E9;
     font-family: "Inter", serif;
-    line-height: 4.7rem;
+    line-height: 3.2;
     text-align: center;
     align-items: center;
 }
@@ -608,7 +608,7 @@ footer {
 .form__title h1 {
     background-color: #DC0721;
     font-size: 1.9rem;
-    line-height: 4.3rem;
+    line-height: 2.5;
     text-align: center;
     color: #FFFFFF;
 }
@@ -640,7 +640,7 @@ footer {
     color: #626262;
     font-style: italic;
     font-size: 1.5rem;
-    line-height: 4rem;
+    line-height: 3;
 }
 
 input:before {
@@ -784,17 +784,14 @@ input:focus {
 
     .schedule__title-top {
         font-size: 5rem;
-        line-height: 5.4rem;
     }
 
     .schedule__title-center {
         font-size: 3rem;
-        line-height: 3.2rem;
     }
 
     .schedule__title-bottom {
         font-size: 3rem;
-        line-height: 3.2rem;
     }
 
     .schedule__block-salary-workman {
@@ -842,10 +839,6 @@ input:focus {
 
     details[open] {
         margin-bottom: 60px;
-    }
-
-    .capabilities h1 {
-        line-height: 3.2rem;
     }
 
     .capabilities__block-item-left,
@@ -909,7 +902,6 @@ input:focus {
 
     .form__title h1 {
         font-size: 1.5rem;
-        line-height: 4rem;
     }
 
     .form .inp {
