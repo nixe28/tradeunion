@@ -514,11 +514,11 @@ details[open] {
 }
 
 .scheme__gray-cell-inside-five {
-    height: 215px;
+    height: 32%;
 }
 
 .scheme__gray-cell-inside-three {
-    height: 165px;
+    height: 29%;
 }
 
 .scheme__column {
@@ -664,6 +664,7 @@ input:focus {
 
 
 @media screen and (max-width: 1280px) {
+
     body,
     .btn {
         font-size: 1.4rem;
@@ -732,7 +733,191 @@ input:focus {
     }
 }
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1024px) {
+
+    body,
+    .btn {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        line-height: 1.1;
+        font-size: 2.3rem;
+        font-weight: 300;
+    }
+
+    .header__title {
+        font-size: 5rem;
+    }
+
+    .workers {
+        padding: 60px 40px;
+        font-size: 1rem;
+    }
+
+    .workers__block-item-left,
+    .workers__block-item-right {
+        padding: 45px 30px 35px;
+    }
+
+    .workers__person .workers__text {
+        font-size: 0.9rem;
+    }
+
+    .schedule {
+        padding: 35px 50px;
+    }
+
+    .schedule__content {
+        margin-top: 40px;
+    }
+
+    .schedule__marker {
+        width: 23px;
+        height: 23px;
+        right: 30px;
+    }
+
+    details[open] .schedule__marker {
+        height: 2px;
+    }
+
+    .schedule__title-top {
+        font-size: 5rem;
+        line-height: 5.4rem;
+    }
+
+    .schedule__title-center {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    .schedule__title-bottom {
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+
+    .schedule__block-salary-workman {
+        font-size: 1rem;
+    }
+
+    .schedule__block-salary-aristocrat {
+        font-size: 1.2rem;
+    }
+
+    .schedule__block-salary-directorate {
+        padding-top: 40px;
+        font-size: 1.8rem;
+    }
+
+    .schedule__block-text-middle {
+        font-size: 1.4rem;
+    }
+
+    .schedule__block-text-small {
+        font-size: 1rem;
+    }
+
+    .schedule__block-item-workman,
+    .schedule__block-item-aristocrat,
+    .schedule__block-item-directorate {
+        font-size: 1.2rem;
+    }
+
+    .schedule__block-item {
+        padding: 20px 15px;
+        font-size: 1rem;
+    }
+
+    .schedule__block-item label {
+        height: 20px;
+        width: 20px;
+        border: 2px solid #000000;
+    }
+
+    .schedule__block-item input[type=radio]:checked+label {
+        height: 16px;
+        width: 16px;
+    }
+
+    details[open] {
+        margin-bottom: 60px;
+    }
+
+    .capabilities h1 {
+        line-height: 3.2rem;
+    }
+
+    .capabilities__block-item-left,
+    .capabilities__block-item-right {
+        padding: 35px;
+    }
+
+    .capabilities__block-job-name {
+        height: 65px;
+        margin-top: 15px;
+        padding: 0 17px;
+    }
+
+    .capabilities__list-worker {
+        margin-top: 75px;
+    }
+
+    .scheme {
+        padding: 80px 0 50px;
+    }
+
+    .scheme__title {
+        height: 110px;
+    }
+
+    .scheme__title-text {
+        font-size: 2.8rem;
+    }
+
+    .scheme__columns {
+        height: 510px;
+    }
+
+    .scheme__gray-cell-inside-five {
+        height: 182px;
+    }
+
+    .scheme__gray-cell-inside-three {
+        height: 140px;
+    }
+
+    .scheme__column-image {
+        width: 50px;
+    }
+
+    .life {
+        padding: 70px 0 55px;
+    }
+
+    .life__text {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        padding: 70px 0 20px;
+    }
+
+    .form {
+        padding: 70px 0;
+    }
+
+    .form__title h1 {
+        font-size: 1.5rem;
+        line-height: 4rem;
+    }
+
+    .form .inp {
+        margin-bottom: 25px;
+        padding-left: 15px;
+        font-size: 1.2rem;
+    }
+}
 
 @media screen and (max-width: 768px) {}
 
