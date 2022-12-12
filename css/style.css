@@ -521,7 +521,7 @@ details[open] {
 }
 
 .scheme__red-column {
-    width: auto;
+    width: 100%;
     background-color: #DC0721;
 }
 
