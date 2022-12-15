@@ -821,6 +821,10 @@ input:focus {
         font-size: 5rem;
     }
 
+    .header__content p {
+        padding: 0 20%;
+    }
+
     .workers {
         padding: 60px 40px;
         font-size: 1rem;
