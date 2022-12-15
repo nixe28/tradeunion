@@ -506,7 +506,7 @@ details[open] {
 }
 
 .scheme__chapter {
-    width: 7.5%;
+    width: 9%;
     /* line-height: 2; */
 }
 
@@ -559,6 +559,8 @@ details[open] {
 
 .scheme__red-text {
     padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     color: #FFFFFF;
@@ -590,6 +592,8 @@ details[open] {
 
 .scheme__gray-text {
     padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     color: #000;
@@ -1370,7 +1374,7 @@ input:focus {
 
     body,
     .btn {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
 
     .btn {
