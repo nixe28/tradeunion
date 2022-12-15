@@ -506,11 +506,13 @@ details[open] {
 }
 
 .scheme__chapter {
+    width: 7.5%;
     line-height: 2;
 }
 
 .scheme__columns {
     display: flex;
+    width: 100%;
     height: 85%;
 }
 
@@ -518,10 +520,11 @@ details[open] {
     display: flex;
     flex-direction: column-reverse;
     height: 610px;
+    width: 50%;
 }
 
 .scheme__red-column {
-    width: 100%;
+    /* width: 100%; */
     background-color: #DC0721;
 }
 
