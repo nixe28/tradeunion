@@ -1178,13 +1178,21 @@ input:focus {
         font-size: 0.8rem;
     }
 
+    h1 {
+        margin-bottom: 30px;
+        font-size: 1.8rem;
+    }
+
     .header__title {
         font-size: 3.5rem;
     }
 
-    h1 {
-        margin-bottom: 30px;
-        font-size: 1.8rem;
+    .header__content p {
+        padding: 0 17%;
+    }
+
+    .header__content a.btn {
+        width: 46%;
     }
 
     .workers {
