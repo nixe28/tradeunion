@@ -507,7 +507,7 @@ details[open] {
 
 .scheme__chapter {
     width: 7.5%;
-    line-height: 2;
+    /* line-height: 2; */
 }
 
 .scheme__columns {
@@ -1989,7 +1989,7 @@ input:focus {
 
     body,
     .btn {
-        font-size: 0.44rem;
+        font-size: 0.4rem;
     }
 
     .btn {
@@ -2007,7 +2007,7 @@ input:focus {
 
     .workers {
         /* padding: 25px 15px 15px; */
-        font-size: 0.25rem;
+        font-size: 0.2rem;
     }
 
     /* .workers__header {
@@ -2019,7 +2019,7 @@ input:focus {
     } */
 
     .workers__person .workers__text {
-        font-size: 0.25rem;
+        font-size: 0.2rem;
     }
 
     .workers__experience {
@@ -2073,7 +2073,7 @@ input:focus {
     }
 
     .schedule__block-text-small {
-        font-size: 0.4rem;
+        font-size: 0.35rem;
     }
 
     .schedule__block-item-workman,
