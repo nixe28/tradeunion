@@ -507,7 +507,6 @@ details[open] {
 
 .scheme__chapter {
     width: 10%;
-    /* line-height: 2; */
 }
 
 .scheme__columns {
@@ -524,7 +523,6 @@ details[open] {
 }
 
 .scheme__red-column {
-    /* width: 100%; */
     background-color: #DC0721;
 }
 
@@ -2005,22 +2003,9 @@ input:focus {
         font-size: 1.2rem;
     }
 
-    /* .header__title {
-        font-size: 1.9rem;
-    } */
-
     .workers {
-        /* padding: 25px 15px 15px; */
         font-size: 0.2rem;
     }
-
-    /* .workers__header {
-        margin-bottom: 6px;
-    } */
-
-    /* .workers__person-img {
-        margin: 0 7px 0 0;
-    } */
 
     .workers__person .workers__text {
         font-size: 0.2rem;
@@ -2029,11 +2014,6 @@ input:focus {
     .workers__experience {
         padding-top: 8px;
     }
-
-    /* .schedule__marker {
-        width: 8px;
-        height: 8px;
-    } */
 
     .schedule__title-top {
         font-size: 1.5rem;
@@ -2047,10 +2027,6 @@ input:focus {
     .schedule__content {
         margin-top: 12px;
     }
-
-    /* .schedule__blocks-salary {
-        margin-bottom: 6px;
-    } */
 
     .schedule__block-description-text p {
         margin-top: 12px;
@@ -2087,79 +2063,8 @@ input:focus {
     }
 
     .schedule__block-item {
-        /* padding: 6px; */
         font-size: 0.3rem;
     }
-
-    /* .schedule__block-item-title {
-        height: 28px;
-        margin-bottom: 6px;
-        padding: 6px;
-    }
-
-    .schedule__block-item label {
-        height: 8px;
-        width: 8px;
-        border: 0.5px solid #000000;
-    }
-
-    .schedule__block-item input[type=radio]:checked+label {
-        height: 6.5px;
-        width: 6.5px;
-        box-shadow: 0 0 0 1.5px #fff, 0 0 0 2px #000
-    } */
-
-    /* details[open] {
-        margin-bottom: 8px;
-    } */
-
-    /* .capabilities__block-item-left h1,
-    .capabilities__block-item-right h1 {
-        font-size: 1rem;
-    }
-
-    .capabilities__block-job-name {
-        height: 26px;
-        margin-top: 10px;
-        padding: 0 6px;
-    }
-
-    .capabilities__block-job-name p {
-        font-size: 0.4rem;
-    } */
-
-    /* .capabilities__list-worker {
-        margin-top: 20px;
-    }
-
-    .capabilities__list-director {
-        margin-top: 10px;
-    }
-
-    .capabilities__list-director-multi {
-        margin-top: 8px;
-    }
-
-    .scheme__title {
-        height: 35px;
-    } */
-
-    /* .scheme__title-text {
-        margin: auto 0 0 5px;
-        font-size: 1.2rem;
-    }
-
-    .scheme__column {
-        height: 180px;
-    }
-
-    .scheme__gray-cell .scheme__gray-text {
-        padding-bottom: 5px;
-    } */
-
-    /* .scheme__column-image {
-        width: 16px;
-    } */
 
     .life {
         padding: 20px 0 20px;
